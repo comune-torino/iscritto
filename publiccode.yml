@@ -1,0 +1,120 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - business-process-management
+  - office
+  - customer-service-and-support
+dependsOn:
+  open:
+    - name: Apache httpd
+      optional: true
+      version: 2.4.41
+      versionMax: ''
+      versionMin: ''
+    - name: JBOSS
+      optional: true
+      version: EAP 6.4.0.GA
+      versionMax: ''
+      versionMin: ''
+    - name: PostgreSQL
+      optional: true
+      version: 9.6.11
+      versionMax: ''
+      versionMin: ''
+description:
+  it:
+    features:
+      - presentazione domanda iscrizione nidi e materne
+      - ricerca e gestione domande (caricamento allegati)
+      - procedure batch per notifiche e report PDF
+      - gestione istruttoria
+      - gestione graduatoria
+    genericName: ISCRITTO
+    longDescription: |
+      ISCRITTO è una soluzione software che gestisce la presentazione e 
+      la gestione delle domande di iscrizione ai nidi e alle
+      scuole materne; Le principali funzionalità sono:
+
+      - modulo front-end per l'iscrizione ai nidi e materne
+
+      - servizi di back-end che realizzano la logica di business di front-office
+      cittadino per la presentazione di una domanda
+
+      - soluzione di back-office (presentation e business logic) che realizza
+      funzionalità di istruttoria, graduatoria ed accettazione domande
+      presentata da front-office
+
+      - procedure batch per l'invio delle notifiche di ammissione posti
+      nidi/materne e per la produzione delle graduatorie da pubblicare sul
+      portale della Città di Torino
+    shortDescription: |-
+      ISCRITTO permette la presentazione e gestione delle domande di iscrizione
+      ai nidi e alle scuole materne
+developmentStatus: stable
+intendedAudience:
+  countries:
+    - it
+  scope:
+    - education
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: true
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: true
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: true
+    pagopa: false
+    spid: true
+  riuso:
+    codiceIPA: c_l219
+landingURL: 'https://github.com/comune-torino/iscritto'
+legal:
+  authorsFile: 'AUTHORS.txt'
+  license: EUPL-1.2
+  mainCopyrightOwner: Città di Torino
+  repoOwner: Città di Torino
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: false
+maintenance:
+  contacts:
+    - email: giuseppe.todaro@csi.it
+      name: Giuseppe Todaro
+  type: internal
+name: ISCRITTO
+platforms:
+  - web
+  - linux
+  - windows
+  - mac
+releaseDate: '2021-03-29'
+softwareType: standalone/web
+softwareVersion: 3.7.1
+url: 'https://github.com/comune-torino/iscritto.git'
+logo: img/logo.png
+screenshots:
+      - img/01.JPG
+      - img/02.JPG
+      - img/03.JPG
+      - img/04.JPG
+      - img/05.JPG
+      - img/06.JPG
+      - img/07.JPG
+      - img/08.JPG
+      - img/09.JPG
+      - img/10.JPG
+      - img/11.JPG
+      - img/12.JPG
+      - img/13.JPG
+      - img/14.JPG
+      - img/15.JPG
+      - img/16.JPG
+usedBy:
+  - Città di Torino
