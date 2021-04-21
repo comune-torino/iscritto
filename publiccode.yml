@@ -3,6 +3,7 @@
 # More info at https://github.com/italia/publiccode.yml
 
 publiccodeYmlVersion: '0.2'
+logo: img/logo.png
 categories:
   - business-process-management
   - office
@@ -115,6 +116,5 @@ releaseDate: '2021-03-29'
 softwareType: standalone/web
 softwareVersion: 3.7.1
 url: 'https://github.com/comune-torino/iscritto.git'
-logo: img/logo.png
 usedBy:
   - Città di Torino
