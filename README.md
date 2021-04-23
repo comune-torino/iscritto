@@ -1,22 +1,22 @@
 # Project Title
-Soluzione per la presentazione e gestione delle domande di iscrizione ai nidi e alle scuole materne
+Soluzione per la presentazione e gestione delle domande di iscrizione ai nidi e alle scuole dell'infanzia
 
 # Project Description
-Soluzione software che gestisce la presentazione e gestione delle domande di iscrizione ai nidi e alle scuole materne; 
+Soluzione software che gestisce la presentazione e gestione delle domande di iscrizione ai nidi e alle scuole dell'infanzia; 
 Le principali funzionalità sono: 
-- modulo front-end per l'iscrizione ai nidi e materne
+- modulo front-end per l'iscrizione ai nidi e alle scuole dell'infanzia
 - servizi di back-end che realizzano la logica di business di frontoffice cittadino per presentazione di una domanda 
 - soluzione di back-office (presentation e business logic) che realizza funzionalità di istruttoria, graduatoria ed accettazione domande presentata da frontoffice 
-- procedure batch per l'invio delle notifiche di ammissione posti nidi/materne e per la produzione delle graduatorie da pubblicare sul portale della Città di Torino
+- procedure batch per l'invio delle notifiche di ammissione posti nidi/scuole dell'infanzia e per la produzione delle graduatorie da pubblicare sul portale della Città di Torino
 		  
 
 # Getting Started
 Il prodotto ISCRITTO è composto dalle seguenti componenti:
-- [ISCRITTOFE](https://github.com/comune-torino/iscritto-iscrittofe) (modulo front-end per l'iscrizione ai nidi e materne)
-- [ISCRITTOBOWEBAPP](https://github.com/comune-torino/iscritto-iscrittobowebapp) (soluzione di back-office che realizza funzionalità di istruttoria, graduatoria ed accettazione domande di iscrizione nidi e materne)
-- [ISCRITTOBOSRV](https://github.com/comune-torino/iscritto-iscrittobosrv) (componente che espone servizi REST di back-end per il back-office di gestione domanda di iscrizione ai nidi e materne)
+- [ISCRITTOFE](https://github.com/comune-torino/iscritto-iscrittofe) (modulo front-end per l'iscrizione ai nidi e alle scuole dell'infanzia)
+- [ISCRITTOBOWEBAPP](https://github.com/comune-torino/iscritto-iscrittobowebapp) (soluzione di back-office che realizza funzionalità di istruttoria, graduatoria ed accettazione domande di iscrizione nidi/scuole dell'infanzia)
+- [ISCRITTOBOSRV](https://github.com/comune-torino/iscritto-iscrittobosrv) (componente che espone servizi REST di back-end per il back-office di gestione domanda di iscrizione ai nidi/scuole dell'infanzia)
 - [SERVISCRITTO](https://github.com/comune-torino/iscritto-serviscritto) (componente che espone servizi REST di business)
-- [ISCRITTOFOSRV](https://github.com/comune-torino/iscritto-iscrittofosrv) (componente che espone servizi REST di back-end per il front-end di gestione domanda di iscrizione ai nidi e materne)
+- [ISCRITTOFOSRV](https://github.com/comune-torino/iscritto-iscrittofosrv) (componente che espone servizi REST di back-end per il front-end di gestione domanda di iscrizione ai nidi/scuole dell'infanzia)
 - [ISCRITTOJB](https://github.com/comune-torino/iscritto-iscrittojb) (componente batch a tecnologia java per le notifiche e report PDF)
 - [ISCRITTODB](https://github.com/comune-torino/iscritto-iscrittodb) (componente che realizza il database applicativo del prodotto)
 

@@ -28,18 +28,20 @@ dependsOn:
 description:
   it:
     features:
-      - presentazione domanda iscrizione nidi e materne
+      - presentazione domanda iscrizione nidi e scuole dell'infanzia
       - ricerca e gestione domande (caricamento allegati)
       - procedure batch per notifiche e report PDF
       - gestione istruttoria
       - gestione graduatoria
+      - gestione attribuzione dei posti
+      - gestione comunicazione ai cittadini
     genericName: ISCRITTO
     longDescription: |
       ISCRITTO è una soluzione software che gestisce la presentazione e 
       la gestione delle domande di iscrizione ai nidi e alle
-      scuole materne; Le principali funzionalità sono:
+      scuole dell'infanzia; Le principali funzionalità sono:
 
-      - modulo front-end per l'iscrizione ai nidi e materne
+      - modulo front-end per l'iscrizione ai nidi e scuole dell'infanzia
 
       - servizi di back-end che realizzano la logica di business di front-office
       cittadino per la presentazione di una domanda
@@ -49,11 +51,11 @@ description:
       presentata da front-office
 
       - procedure batch per l'invio delle notifiche di ammissione posti
-      nidi/materne e per la produzione delle graduatorie da pubblicare sul
+      nidi/scuole dell'infanzia e per la produzione delle graduatorie da pubblicare sul
       portale della Città di Torino
     shortDescription: |-
       ISCRITTO permette la presentazione e gestione delle domande di iscrizione
-      ai nidi e alle scuole materne
+      ai nidi e alle scuole dell'infanzia
     screenshots:
       - img/01.JPG
       - img/02.JPG
